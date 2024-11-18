@@ -33,4 +33,12 @@ Before starting, ensure you have:
 Ensure that the testing framework is properly configured in your project. For example, in a Node.js project, you can set up Jest:
 ```bash
 npm install jest --save-dev
+```
+---
+
+### Run Tests
+```bash
+npm run test
+```
+
 
