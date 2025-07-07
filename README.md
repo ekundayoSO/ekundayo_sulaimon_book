@@ -41,4 +41,17 @@ npm install jest --save-dev
 npm run test
 ```
 
+## Using Docker To Run Tests
+
+# Build docker image for the test
+```bash
+docker build -t <YourImageName>
+```
+
+# Run docker image
+```bash
+docker run --name <ContainerName> <YourImageName>
+docker run --name <ContainerName> -it <YourImageName> /bin/sh
+```
+
 
